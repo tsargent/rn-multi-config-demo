@@ -36,11 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MultiConfigDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MultiConfigDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MultiConfigDemo/main.m; sourceTree = "<group>"; };
+		1519182B06ADF50CFF95663B /* Pods-MultiConfigDemo-MultiConfigDemoTests.debug2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiConfigDemo-MultiConfigDemoTests.debug2.xcconfig"; path = "Target Support Files/Pods-MultiConfigDemo-MultiConfigDemoTests/Pods-MultiConfigDemo-MultiConfigDemoTests.debug2.xcconfig"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MultiConfigDemo-MultiConfigDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiConfigDemo-MultiConfigDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-MultiConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-MultiConfigDemo/Pods-MultiConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MultiConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-MultiConfigDemo/Pods-MultiConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MultiConfigDemo-MultiConfigDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiConfigDemo-MultiConfigDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MultiConfigDemo-MultiConfigDemoTests/Pods-MultiConfigDemo-MultiConfigDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MultiConfigDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiConfigDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CDB69937EB6C3C2A93C459 /* Pods-MultiConfigDemo.debug2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiConfigDemo.debug2.xcconfig"; path = "Target Support Files/Pods-MultiConfigDemo/Pods-MultiConfigDemo.debug2.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MultiConfigDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MultiConfigDemo-MultiConfigDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiConfigDemo-MultiConfigDemoTests.release.xcconfig"; path = "Target Support Files/Pods-MultiConfigDemo-MultiConfigDemoTests/Pods-MultiConfigDemo-MultiConfigDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -144,6 +146,8 @@
 				5709B34CF0A7D63546082F79 /* Pods-MultiConfigDemo.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-MultiConfigDemo-MultiConfigDemoTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-MultiConfigDemo-MultiConfigDemoTests.release.xcconfig */,
+				71CDB69937EB6C3C2A93C459 /* Pods-MultiConfigDemo.debug2.xcconfig */,
+				1519182B06ADF50CFF95663B /* Pods-MultiConfigDemo-MultiConfigDemoTests.debug2.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -745,7 +749,7 @@
 		};
 		B8C486D12AB48C29004EA0A4 /* Debug2 */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-MultiConfigDemo.debug.xcconfig */;
+			baseConfigurationReference = 71CDB69937EB6C3C2A93C459 /* Pods-MultiConfigDemo.debug2.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -772,7 +776,7 @@
 		};
 		B8C486D22AB48C29004EA0A4 /* Debug2 */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-MultiConfigDemo-MultiConfigDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 1519182B06ADF50CFF95663B /* Pods-MultiConfigDemo-MultiConfigDemoTests.debug2.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
